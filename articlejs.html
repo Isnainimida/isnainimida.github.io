@@ -1,0 +1,125 @@
+<!-- simple article about javascript using internal css and bootstrapt5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Article</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r6QEKvVbY7N+PjvVxZxHnGJzQf9jyUprQmhrYwIiQvVxhU+PxxsQk2uXnYDkL7Sk" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #f5f5f5;
+        }
+        .container{
+            margin-top: 50px;
+            width: 90%;
+        }
+        .article{
+            margin: 30px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px #00000080;
+            border-radius: 5px;
+        }
+        .article-title{
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .article-author{
+            font-size: 16px;
+            color: rgb(47, 47, 47);
+            text-align: right;
+        }
+        .article-date{
+            font-size: 14px;
+            color: #666;
+            text-align: right;
+        }
+        .article-content{
+            font-size: 14px;
+            color: rgb(34, 34, 34);
+        }
+        .article h1{
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .article p{
+            font-size: 17px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        li{
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 5px;
+            text-align: justify;
+        }
+        i{
+            font-size: 16px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="article">
+            <div class="article-title">
+                JavaScript
+            </div>
+            <div class="article-content">
+                <h2>JavaScript</h2>
+                <p>JavaScript adalah bahasa pemrograman yang digunakan untuk membangun situs web dari sisi klien. JavaScript membuat situs web lebih dinamis dan interaktif. Sesuatu yang tidak dapat Anda lakukan dengan HTML atau CSS.
+                    Bahasa pemrograman JavaScript adalah bahasa penulisan tingkat tinggi(dekat bahasa manusia) yang berjenis scripting (scripting language) yang ditulis secara dinamis (dynamically typed) dan dieksekusi oleh seorang Interpreter. JS memiliki konvensi penulisan yang mirip dengan bahasa manusia. Ini membuat JavaScript lebih mudah. Untuk pemula sekalipun.
+                    Sebuah bahasa scripting berarti bahwa JavaScript adalah bahasa pemrograman tertanam dalam program yang lebih besar seperti web browser. Jadi, ini adalah program yang dapat menggunakan JavaScript.
+                    Pengetikan dinamis berarti bahwa variabel dalam program yang dikodekan dalam JavaScript dapat berisi tipe data yang berbeda. yang dimana dapat memasukkan angka dalam variabel dan kemudian diubah menjadi huruf tanpa kesalahan.
+                    JavaScript harus dijalankan oleh Interpreter. Ini berarti bahwa itu harus diterjemahkan ke dalam bahasa yang dimengerti komputer agar dapat berjalan. Sekarang, proses penerjemahan ini dilakukan secara otomatis oleh browser web Anda.</p>
+                <h2>Sejarah JavaScript</h2>
+                <p>
+                    JavaScript adalah salah satu bahasa tertua di dunia. Itu telah ada dengan nama aslinya Mocca sejak 1995. Dia kemudian beralih ke LiveScript sebelum menstandarisasi EcmaScript hingga akhirnya mendapatkan nama JavaScript.
+                    JavaScript pertama kali dikenalkan oleh Netscape pada tahun 1995. Pada awalnya JavaScript hanya digunakan untuk membuat website dinamis. Namun seiring berjalannya waktu, JavaScript mulai digunakan untuk membuat aplikasi mobile, membuat game, dan lain sebagainya. 
+                    EcmaScript sendiri merupakan bahasa scripting standar yang dikembangkan oleh European Computer Manufacturers Association (ECMA). EcmaScript memungkinkan JavaScript untuk berjalan dengan lancar di berbagai browser.
+                    Dengan sejarahnya yang panjang, tidak heran JavaScript adalah bahasa pemrograman paling populer, menurut survei Stack Overflow. Secara keseluruhan, 97,7% situs web di Internet menggunakan bahasa pemrograman JavaScript.
+                </p>
+                <h2>Kelebihan JavaScript</h2>
+                <p>JavaScript memiliki banyak kelebihan, diantaranya:</p>
+                <ul>
+                    <li>JavaScript dapat digunakan untuk membuat website dinamis</li>
+                    <li>Open Source, Gratis dan dapat dikembangkan luas</li>
+                    <li>Tidak Memerlukan Instalasi lain, cukup menggunakan text editor dan browser</li>
+                    <li>Ekosistem dan Komunitas yang Luas</li>
+                    <li>Multi platform, bisa dijalankan di banyak sistem operasi</li>
+                </ul>
+                <h2>Penulisan JavaScript</h2>
+                <p>JavaScript dapat ditulis di dalam HTML atau di dalam file terpisah dengan ekstensi .js. Untuk menuliskan JavaScript di dalam HTML,  dapat menggunakan tag <b>script</b>  atau sedangkan untuk file ekstensi terpisah menambahkan atribut src pada tag "<script></script>" untuk menunjukkan lokasi file JavaScript.</p>
+                <h2>Contoh Penulisan JavaScript</h2>
+                <p>Contoh penulisan JavaScript di dalam HTML</p>
+                <p>
+                    didalam tag script ketikkan kode JS:
+                    <i>
+                        document.write("Hello World");
+                    </i>
+                </p>   
+                        
+                <p>Contoh penulisan JavaScript di dalam file terpisah, lalu di tambahkan ke file utama HTML
+
+                    <i>
+                        src="script.js"
+                    </i> 
+                </p>
+                
+            </div>
+            <div class="article-author">
+                Isnaini Nur Khamida
+            </div>
+            <div class="article-date">
+                28/10/2022
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
